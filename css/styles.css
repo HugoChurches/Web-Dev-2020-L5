@@ -1,0 +1,89 @@
+body{
+    background: url('../images/SomeGroceryStoreFromTheWeb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Button design recovered from https://www.bestcssbuttongenerator.com/*/
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 87%;
+}
+
+header{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 10em;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    font-size: large;
+    font-weight: bolder;
+  }
+
+.container
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.deleteItem{
+    margin-left: 20px;
+    background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.deleteItem:hover {
+	background-color:#5cbf2a;
+}
+
+.deleteItem:active {
+	position:relative;
+	top:1px;
+}
+
+.checkItem{
+    margin-left: 10px;
+    background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.checkItem:hover {
+	background-color:#5cbf2a;
+}
+.checkItem:active {
+	position:relative;
+	top:1px;
+}
+
+.crossItem{
+    text-decoration: line-through;
+}
+
+.crossItem-none{
+    text-decoration: line-through;
+}
